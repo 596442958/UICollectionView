@@ -1,0 +1,6 @@
+pod 'MMDrawerController', '~> 0.5.7'
+pod 'AFNetworking', '~> 3.0'
+pod 'Masonry'
+pod 'SDWebImage', '~>3.7'
+pod 'MJExtension'
+pod 'MWPhotoBrowser'

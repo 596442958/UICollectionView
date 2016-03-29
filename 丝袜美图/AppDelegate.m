@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeCollectionViewController.h"
+#import <UIImageView+WebCache.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    HomeCollectionViewController *home = [[HomeCollectionViewController alloc]init];
+    _window.rootViewController = home;
+   [_window makeKeyAndVisible];
     return YES;
 }
 
@@ -41,5 +46,13 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    //接收到内存警告
+    //停止下载
+    [[SDWebImageManager sharedManager] cancelAll];
+    //删除缓存
+    [[SDWebImageManager sharedManager].imageCache clearMemory];
+    
+}
 @end

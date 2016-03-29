@@ -7,25 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0252C0DC1CA9357200D90498 /* DetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0252C0DB1CA9357200D90498 /* DetailImageViewController.m */; };
+		028BD8901CA84C9A00D40B3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028BD88F1CA84C9A00D40B3B /* Images.xcassets */; };
+		02A40C8D1CA7DA9D007821A6 /* HomeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A40C8C1CA7DA9D007821A6 /* HomeCollectionViewController.m */; };
+		02A40C901CA7DB41007821A6 /* ImgData.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A40C8F1CA7DB41007821A6 /* ImgData.m */; };
+		02A40C931CA7E49B007821A6 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A40C921CA7E49B007821A6 /* HomeCollectionViewCell.m */; };
 		02BBF9371CA7BDE30065FA6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BBF9361CA7BDE30065FA6A /* main.m */; };
 		02BBF93A1CA7BDE30065FA6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BBF9391CA7BDE30065FA6A /* AppDelegate.m */; };
-		02BBF93D1CA7BDE30065FA6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BBF93C1CA7BDE30065FA6A /* ViewController.m */; };
-		02BBF9401CA7BDE30065FA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BBF93E1CA7BDE30065FA6A /* Main.storyboard */; };
 		02BBF9421CA7BDE30065FA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BBF9411CA7BDE30065FA6A /* Assets.xcassets */; };
-		02BBF9451CA7BDE30065FA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BBF9431CA7BDE30065FA6A /* LaunchScreen.storyboard */; };
+		02FDF47C1CA7CC960075E17A /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FDF47B1CA7CC960075E17A /* LeftViewController.m */; };
+		02FDF47F1CA7CCAA0075E17A /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FDF47E1CA7CCAA0075E17A /* RightViewController.m */; };
+		A5EF024E6379D7B3E4E72A2F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 884172315B79A48A885A9F52 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02BBF9321CA7BDE30065FA6A /* 丝袜美图.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "丝袜美图.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0252C0DA1CA9357200D90498 /* DetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailImageViewController.h; sourceTree = "<group>"; };
+		0252C0DB1CA9357200D90498 /* DetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailImageViewController.m; sourceTree = "<group>"; };
+		028BD88F1CA84C9A00D40B3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		02A40C8B1CA7DA9D007821A6 /* HomeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewController.h; sourceTree = "<group>"; };
+		02A40C8C1CA7DA9D007821A6 /* HomeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewController.m; sourceTree = "<group>"; };
+		02A40C8E1CA7DB41007821A6 /* ImgData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgData.h; sourceTree = "<group>"; };
+		02A40C8F1CA7DB41007821A6 /* ImgData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgData.m; sourceTree = "<group>"; };
+		02A40C911CA7E49B007821A6 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		02A40C921CA7E49B007821A6 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		02BBF9321CA7BDE30065FA6A /* image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = image.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BBF9361CA7BDE30065FA6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		02BBF9381CA7BDE30065FA6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		02BBF9391CA7BDE30065FA6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		02BBF93B1CA7BDE30065FA6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		02BBF93C1CA7BDE30065FA6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		02BBF93F1CA7BDE30065FA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02BBF9381CA7BDE30065FA6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		02BBF9391CA7BDE30065FA6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		02BBF9411CA7BDE30065FA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		02BBF9441CA7BDE30065FA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BBF9461CA7BDE30065FA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02FDF47A1CA7CC960075E17A /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		02FDF47B1CA7CC960075E17A /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		02FDF47D1CA7CCAA0075E17A /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		02FDF47E1CA7CCAA0075E17A /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		36654B2A81348666EC635679 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		884172315B79A48A885A9F52 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32CD2D3471E461C259585FB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EF024E6379D7B3E4E72A2F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,13 +62,15 @@
 			children = (
 				02BBF9341CA7BDE30065FA6A /* 丝袜美图 */,
 				02BBF9331CA7BDE30065FA6A /* Products */,
+				045BEEB151F2416CF9619439 /* Pods */,
+				DF392983C44E387C150175D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		02BBF9331CA7BDE30065FA6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02BBF9321CA7BDE30065FA6A /* 丝袜美图.app */,
+				02BBF9321CA7BDE30065FA6A /* image.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,14 +78,8 @@
 		02BBF9341CA7BDE30065FA6A /* 丝袜美图 */ = {
 			isa = PBXGroup;
 			children = (
-				02BBF9381CA7BDE30065FA6A /* AppDelegate.h */,
-				02BBF9391CA7BDE30065FA6A /* AppDelegate.m */,
-				02BBF93B1CA7BDE30065FA6A /* ViewController.h */,
-				02BBF93C1CA7BDE30065FA6A /* ViewController.m */,
-				02BBF93E1CA7BDE30065FA6A /* Main.storyboard */,
-				02BBF9411CA7BDE30065FA6A /* Assets.xcassets */,
-				02BBF9431CA7BDE30065FA6A /* LaunchScreen.storyboard */,
-				02BBF9461CA7BDE30065FA6A /* Info.plist */,
+				02FDF4751CA7C2800075E17A /* Classes */,
+				02FDF4791CA7C2960075E17A /* Other */,
 				02BBF9351CA7BDE30065FA6A /* Supporting Files */,
 			);
 			path = "丝袜美图";
@@ -74,9 +88,114 @@
 		02BBF9351CA7BDE30065FA6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				02BBF9461CA7BDE30065FA6A /* Info.plist */,
+				028BD88F1CA84C9A00D40B3B /* Images.xcassets */,
+				02BBF9411CA7BDE30065FA6A /* Assets.xcassets */,
 				02BBF9361CA7BDE30065FA6A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02FDF4751CA7C2800075E17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				02FDF4801CA7CF170075E17A /* Home */,
+				02FDF4761CA7C2800075E17A /* Controller */,
+				02FDF4771CA7C2800075E17A /* Model */,
+				02FDF4781CA7C2800075E17A /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		02FDF4761CA7C2800075E17A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		02FDF4771CA7C2800075E17A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02A40C8E1CA7DB41007821A6 /* ImgData.h */,
+				02A40C8F1CA7DB41007821A6 /* ImgData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02FDF4781CA7C2800075E17A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02FDF47A1CA7CC960075E17A /* LeftViewController.h */,
+				02FDF47B1CA7CC960075E17A /* LeftViewController.m */,
+				02FDF47D1CA7CCAA0075E17A /* RightViewController.h */,
+				02FDF47E1CA7CCAA0075E17A /* RightViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02FDF4791CA7C2960075E17A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				02BBF9381CA7BDE30065FA6A /* AppDelegate.h */,
+				02BBF9391CA7BDE30065FA6A /* AppDelegate.m */,
+			);
+			name = Other;
+			path = Classes/Other;
+			sourceTree = "<group>";
+		};
+		02FDF4801CA7CF170075E17A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				02FDF4811CA7CF170075E17A /* Controller */,
+				02FDF4821CA7CF170075E17A /* Model */,
+				02FDF4831CA7CF170075E17A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		02FDF4811CA7CF170075E17A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		02FDF4821CA7CF170075E17A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02FDF4831CA7CF170075E17A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02A40C8B1CA7DA9D007821A6 /* HomeCollectionViewController.h */,
+				02A40C8C1CA7DA9D007821A6 /* HomeCollectionViewController.m */,
+				02A40C911CA7E49B007821A6 /* HomeCollectionViewCell.h */,
+				02A40C921CA7E49B007821A6 /* HomeCollectionViewCell.m */,
+				0252C0DA1CA9357200D90498 /* DetailImageViewController.h */,
+				0252C0DB1CA9357200D90498 /* DetailImageViewController.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		045BEEB151F2416CF9619439 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36654B2A81348666EC635679 /* Pods.debug.xcconfig */,
+				A32CD2D3471E461C259585FB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF392983C44E387C150175D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				884172315B79A48A885A9F52 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02BBF9491CA7BDE30065FA6A /* Build configuration list for PBXNativeTarget "丝袜美图" */;
 			buildPhases = (
+				977A3257EA6588EB9DECEE66 /* Check Pods Manifest.lock */,
 				02BBF92E1CA7BDE30065FA6A /* Sources */,
 				02BBF92F1CA7BDE30065FA6A /* Frameworks */,
 				02BBF9301CA7BDE30065FA6A /* Resources */,
+				FBFEBD3D36AAB975721246A7 /* Embed Pods Frameworks */,
+				054742830454F211D0B3381B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +218,7 @@
 			);
 			name = "丝袜美图";
 			productName = "丝袜美图";
-			productReference = 02BBF9321CA7BDE30065FA6A /* 丝袜美图.app */;
+			productReference = 02BBF9321CA7BDE30065FA6A /* image.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +232,6 @@
 				TargetAttributes = {
 					02BBF9311CA7BDE30065FA6A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = WJZE4SWJA4;
 					};
 				};
 			};
@@ -137,45 +258,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BBF9451CA7BDE30065FA6A /* LaunchScreen.storyboard in Resources */,
 				02BBF9421CA7BDE30065FA6A /* Assets.xcassets in Resources */,
-				02BBF9401CA7BDE30065FA6A /* Main.storyboard in Resources */,
+				028BD8901CA84C9A00D40B3B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		054742830454F211D0B3381B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		977A3257EA6588EB9DECEE66 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFEBD3D36AAB975721246A7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02BBF92E1CA7BDE30065FA6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BBF93D1CA7BDE30065FA6A /* ViewController.m in Sources */,
+				02FDF47C1CA7CC960075E17A /* LeftViewController.m in Sources */,
+				02FDF47F1CA7CCAA0075E17A /* RightViewController.m in Sources */,
 				02BBF93A1CA7BDE30065FA6A /* AppDelegate.m in Sources */,
+				0252C0DC1CA9357200D90498 /* DetailImageViewController.m in Sources */,
+				02A40C901CA7DB41007821A6 /* ImgData.m in Sources */,
+				02A40C931CA7E49B007821A6 /* HomeCollectionViewCell.m in Sources */,
 				02BBF9371CA7BDE30065FA6A /* main.m in Sources */,
+				02A40C8D1CA7DA9D007821A6 /* HomeCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		02BBF93E1CA7BDE30065FA6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02BBF93F1CA7BDE30065FA6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		02BBF9431CA7BDE30065FA6A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02BBF9441CA7BDE30065FA6A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		02BBF9471CA7BDE30065FA6A /* Debug */ = {
@@ -260,23 +414,31 @@
 		};
 		02BBF94A1CA7BDE30065FA6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36654B2A81348666EC635679 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "丝袜美图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google;
+				PRODUCT_NAME = image;
 			};
 			name = Debug;
 		};
 		02BBF94B1CA7BDE30065FA6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32CD2D3471E461C259585FB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "丝袜美图/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baidu.----";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google;
+				PRODUCT_NAME = image;
 			};
 			name = Release;
 		};
@@ -299,6 +461,7 @@
 				02BBF94B1CA7BDE30065FA6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
